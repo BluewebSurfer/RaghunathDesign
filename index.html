@@ -28,7 +28,7 @@
                 </div>
                 <ul>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        Raghunath Designs
+                        
                         <i class="fa fa-bars"></i>
                     </a>
                     <a href="index.html"><li>Home</li></a> 
@@ -290,11 +290,21 @@
     </ul>
   </div>
   <div class="social">
-    <h1>Social media</h1>
+    <h1>Social media</h1> <br>
       <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
   </div>
 </footer>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myId");
+    if (x.className === "mynav") {
+      x.className += " responsive";
+    } else {
+      x.className = "mynav";
+    }
+  }
+  </script>
 </body>
 </html>

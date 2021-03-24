@@ -593,8 +593,215 @@ color: white;
       color: white;
   }
   footer .social{
-display: flex;
-/* justify-content: space-around; */
-flex-direction: column;
-/* justify-content: space-evenly; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width:480px){
+
+    header .topheader{
+        height: 3em;
+    }
+    .topheader h1{
+        width: 100%;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+    }
+    .big-banner{
+        height: 100%;
+    }
+    .big-banner-img{
+        margin-top: 50px;
+    }
+    .big-banner .mynav{
+        width: 100%;
+        margin-top: -25px;
+    }
+    .big-banner .mynav ul{
+        width: 0;
+    }
+    .mynav .logo h1{
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    .big-banner-img img{
+        margin-top: 30px;
+        object-fit: contain;
+    }
+    /* hedaercards */
+    .header-cards{
+        margin-top: 0;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .header-cards .header-card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+    .header-cards .header-card .fa-newspaper-o,
+    .header-cards .header-card .fa-pie-chart,
+    .header-cards .header-card .fa-paint-brush{
+        font-size: 3.5em;
+        border: 5px solid rgb(197, 29, 29);
+        padding: 15px;
+        border-radius: 50%;
+        background-color: white;
+        margin-top: -60px;
+    }
+    .header-cards .header-card h1{
+        font-size: 2.3em;
+    }
+    .header-cards .header-card p{
+        font-size: 1.4em;
+    }
+    .header-cards .header-card h2{
+        font-size: 2em;
+    }
+    /* ABOUT COMPANY */
+    .about-company{
+        flex-direction: column;
+    }
+    .about-company-img{
+        width: 100%;
+    }
+    .about-company-img p{
+        width: 95%;
+        font-size: 1.5em;
+        border-left: 2px solid rgb(201, 17, 17);
+    }
+    .about-company-content{
+        width: 100%;
+    }
+    .about-company-content h1{
+        font-size: 1.8em;
+    }
+    /* MISSION */
+    .mission i{
+        font-size: 3em;
+    }
+    .mission-statement h3{
+        margin-top: 0;
+        font-size: 1.3em;
+    }
+    .mission-statement p{
+        /* margin-top: 0; */
+        font-size: 0.8em;
+    }
+
+    /* COVERED INDUSTRIES */
+    .covered-industries{
+        margin-top: 25px;
+        background-position: center;
+        background-size: cover;
+    }
+    .covered-industries .covered-industries-header{
+        width: 100%;
+    }
+    .covered-industries-header h1{
+        width: 100%;
+    }
+    /* .covered-industries .covered-industries-cards{
+
+    } */
+    .covered-industries-cards .covered-industries-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .covered-industries-card i{
+        font-size: 4.5em;
+    }
+    .covered-industries-card img{
+        width: 100%;
+        margin-left: 0;
+        border: 1px solid black;
+    }
+    .reverse{
+        margin-left: 0;
+    }
+    .reverse img{
+        margin-right: 0;
+    }
+
+    /* PROJECTS */
+    .projects .projects-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .projects-content-info{
+        font-size: 1.5em;
+    }
+    .projects-content .more-projects{
+        font-size: 1.7em;
+        margin-right: 0;
+    }
+    /* CONTACT */
+    .contact{
+        flex-direction: column;
+        height: 100%;
+    }
+    .contact h1{
+        font-size: 2.5em;
+    }
+    .contact a{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    /* FOOTER */
+    footer{
+        flex-direction: column;
+    }
+    footer .address,
+    footer .navigation,
+    footer .social{
+        width: 100%;
+        padding: 20px;
+        /* border: 1px solid red; */
+    }
+    .address h1{
+        font-size: 2.3em;
+    }
+    footer .address a{
+        font-size: 1.5em;
+    }
+    footer .address p{
+        font-size: 1.5em;
+    }
+    footer .navigation a{
+        font-size: 1.5em; 
+    }
+    footer .social{
+        /* flex-direction: row; */
+    }
+    footer .social i{
+        margin-bottom: 0;
+    }
+    footer .social h1{
+        font-size:2.5em ;
+    }
+
+
+
+
+      .icon{
+          display: block;
+      }
+      /* .logo h1{
+          display: hidden;
+      } */
+      .mynav ul a:not(:first-child){
+        display: none;
+        /* border: 1px solid yellow; */
+      }
+
+
+
+
+
+
+      /* Cards */
+     
+     
+     
   }
